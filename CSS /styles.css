@@ -20,7 +20,7 @@ body {
   padding: 30px 0;
 }
 
-.city: last-child {
+.city last-child {
   border: none;
 }
 
