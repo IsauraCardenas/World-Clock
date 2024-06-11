@@ -3,6 +3,25 @@ body {
   font-family: sans-serif;
 }
 
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 36px;
+}
+
+h2 {
+  margin: 0 0 5px;
+  font-size: 28px;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
 .container {
   max-width: 600px;
   margin: 60px auto;
@@ -14,19 +33,14 @@ body {
 
 .city {
   display: flex;
-  margin: 20px 0;
+  margin: 10px 0;
   justify-content: space-between;
-  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
   padding: 30px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
 }
 
-.city last-child {
+.city:last-child {
   border: none;
-}
-
-h2 {
-  margin: 0 0 10px;
-  font-size: 28px;
 }
 
 .date {
@@ -41,21 +55,7 @@ h2 {
 .time small {
   font-size: 24px;
   vertical-align: middle;
-  line-height: 36px;
-}
-
-select {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  border-radius: 4px;
-  font-size: 18px;
-}
-
-h1 {
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 36px;
+  line-height: 48px;
 }
 
 footer {
