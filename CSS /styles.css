@@ -1,12 +1,14 @@
 body {
-  background-color: #f9f7fe;
+  background-image: url("https://i.imgur.com/8XI5xnA.jpeg");
   font-family: sans-serif;
+  background-repeat: none;
+  background-size: cover;
 }
 
 h1 {
   text-align: center;
-  font-family: sans-serif;
-  font-size: 36px;
+  font-family: "Pacifico", cursive;
+  font-size: 46px;
 }
 
 h2 {
@@ -25,10 +27,13 @@ select {
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background: white;
+  background: transparent;
   padding: 30px;
   box-shadow: 10px 7px 29px 0px rgba(100, 100, 111, 0.2);
   border-radius: 10px;
+  color: whitesmoke;
+  backdrop-filter: blur(20px);
+  border-color: aqua;
 }
 
 .city {
@@ -45,11 +50,13 @@ select {
 
 .date {
   opacity: 0.7;
+  font-family: "Crimson Text", serif;
 }
 
 .time {
   font-size: 48px;
   font-weight: bold;
+  font-family: "Cactus Classical Serif", serif;
 }
 
 .time small {
@@ -61,5 +68,14 @@ select {
 footer {
   text-align: center;
   font-size: 18px;
-  color: rgba(0, 0, 0, 0.8);
+  color: hsl(0, 0%, 100%);
+  background: transparent;
+}
+
+a {
+  color: black;
+}
+
+strong {
+  color: black;
 }
